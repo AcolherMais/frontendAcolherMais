@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão_de_Recursos</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            
+            <div class="mainHeader">
+                <!-- Header part1 
+                OBS: -->
+                <div class="header1">
+                    <div class="header1Esquerda">
+                        <a href="telaInicial_gestAbrigo.html" id="aBtnReturn"><img src="/img/icones/SVG_SetaEsquerdaBranca.svg" alt="Icone Retornar" id="returnIcon"></a>
+                        <div class="pageSubtitle"><p>Gestão de Recursos</p></div>
+                    </div>
+                    <div class="header1Direita">
+                        <div class="contAbrigados"><p>Nº ABRIGADOS: 358/500</p></div>
+                        <a href="/FAQ.html"><img src="/img/icones/SVG_AjudaBranco.svg" alt="Icone ajuda" id="helpIcon"></a>
+                    </div>
+                </div>
+                <!-- Header part2 
+                <div class="header2">
+                    <a href=""><div class="opcaoMenuHeader"><p>Gestão de Abrigo</p></div></a>
+                    <a href=""><div class="opcaoMenuHeader"><p>Relatórios</p></div></a>
+                </div>-->
+            </div>
+        </header>
+
+        <nav>
+
+            <div class="quadroLaranjaCentralizado">
+                <div class="displayForm">
+                    <form method="get" class="displayForm">
+                            <label>Nome do Recurso:
+                                <input type="text" name="nmRecurso" required class="inputAmarelo">
+                            </label>   
+
+                            <label>Data de recebimento
+                                <input type="date" required class="inputAmarelo">
+                            </label>
+
+                            <label>Data de validade
+                                <input type="date" required class="inputAmarelo">
+                            </label>
+
+                            <label>Classe de recurso:
+                                <select name="opcoesAbrigo" class="inputAmarelo">
+                                    <option value="material">Material</option>
+                                    <option value="Alimentacao" selected>Alimentação</option>
+                                    <option value="Roupa">Roupa</option>
+                                    <option value="primeiroSocorros">Primeiros-Socorros</option>
+                                </select>
+                            </label>
+
+                            <label>Tipo de recurso:
+                                <select name="tipoDeRecurso" class="inputAmarelo">
+                                    <option value="arroz">Arroz</option>
+                                    <option value="feijao">Feijão</option>
+                                    <option value="macarra">Macarrão</option>
+                                    <option value="agua">Água</option>
+                                    <option value="cafe">Café</option>
+                                    <option value="biscoitoMaizena">Biscoito Maizena</option>
+                                </select>
+                            </label>
+
+                            <label>Quantidade Inicial:
+                                <input type="number" name="numInicial" required class="inputAmarelo">
+                            </label>                        
+
+                            <label>Número de porções por Unidade:
+                                <input type="number" name="numPorcoesPorUnd" required class="inputAmarelo">
+                            </label>                      
+                    </form>
+
+                </div>
+                <div class="btnVermelhoPadrao"><p>Cadastrar</p></div>
+            </div>
+
+        </nav>
+
+        <footer>
+            <div class="displayFooter">
+                <div class="mainDivFooter">
+                    
+                    <div class="mainLinksFooter">
+                        <a href="/index.html"><div class="opcaoMenuFooter"><p>Index</p></div></a>
+                        <a href="/FAQ.html"><div class="opcaoMenuFooter"><p>FAQ</p></div></a>
+                        <a href="/telaQuemSomos.html"><div class="opcaoMenuFooter"><p>Quem Somos</p></div></a>
+                        <a href="/telaContato.html"><div class="opcaoMenuFooter"><p>Contato</p></div></a>
+                    </div>
+                    <div class="footerRedes">
+                        <h5>SIGA-NOS</h5>
+                        <br>
+                        <div class="logosRedesSociais">
+                            <a href="https://github.com/AcolherMais/frontendAcolherMais.git"><img src="/img/icones/githubLogo.png" alt="logo github" id="logoRedes"></a>
+                            <img src="/img/icones/insta_LOGO.png" alt="logo instagram" id="logoRedes">
+                            <img src="/img/icones/Twitter_X.png" alt="logo X" id="logoRedes">
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="fimFooter">
+                        <img src="/img/icones/LogoSVG.png" alt="Logo Acolher+" id="logoFooter">
+                        <br>
+                        <h5>© Acolher+ 2025</h5>
+                        <br>
+                        <h5>Todos os direitos reservados.</h5>
+                    </div>
+            </div>
+        </footer>
+
+
+    </div>
+</body>
+</html>

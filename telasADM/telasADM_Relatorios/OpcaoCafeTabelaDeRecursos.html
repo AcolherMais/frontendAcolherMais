@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela_de_Recursos-Café</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            
+            <div class="mainHeader">
+                <!-- Header part1 
+                OBS: -->
+                <div class="header1">    
+                    <a href="telaInicial_Relatorios.html"><img src="/img/icones/SVG_SetaEsquerdaBranca.svg" alt="Icone Retornar"></a>
+                    <div class="pageTitle"><p>Tabela de Recursos</p></div>
+                    <a href="/FAQ.html"><img src="/img/icones/SVG_AjudaBranco.svg" alt="Icone ajuda" id="helpIcon"></a>
+                </div>
+                <!-- Header part2 
+                <div class="header2">
+                    <a href=""><div class="opcaoMenuHeader"><p>Gestão de Abrigo</p></div></a>
+                    <a href=""><div class="opcaoMenuHeader"><p>Relatórios</p></div></a>
+                </div>-->
+            </div>
+        </header>
+
+        <nav>
+            <div class="table-wrapper">
+                <div class="search-bar">
+                    <input type="text" placeholder="CAFÉ">
+                    <span>🔍</span>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NOME</th>
+                            <th>TIPO</th>
+                            <th>CLASSE</th>
+                            <th>UND</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Café 500kg</td>
+                            <td>Café</td>
+                            <td>Alimentação</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div id="displayTable">
+                    <div id="infosItemTable">
+                        <ul>
+                            <li><p>Data recebimento: 01/06/25</p></li>
+                            <li><p>Data validade: 15/10/25</p></li>
+                            <li><p>Porções/und: 40</p></li>
+                        </ul>
+                    </div>
+                    <div id="menuUsoItem">
+                        <div id="menuUsoItemL1">
+                            <form method="get"><input type="button" value="btn-"><img src="/img/icones/SVG_MenosPreto.svg" alt="botão subtrair"></form>
+                            <div class="painelNumero"><form method="get"><label><input type="number" name="" id=""></label></form></div>
+                            <form method="get"><input type="button" value="btn+"><img src="/img/icones/SVG_MaisPreto.svg" alt="botão incrementar"></form>                            
+                        </div>
+                        
+                        <div id="menuUsoItemL2">
+                            <p>Total Porções</p>
+                            <div class="painelNumero"><p>160</p></div>
+                        </div>
+
+                        <div id="menuUsoItemL3">
+                            <form method="get">
+                                <input type="button" value="CANCELAR">
+                                <input type="button" value="USAR">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <footer>
+            <div class="displayFooter">
+                <div class="mainDivFooter">
+                    
+                    <div class="mainLinksFooter">
+                        <a href="/index.html"><div class="opcaoMenuFooter"><p>Index</p></div></a>
+                        <a href="/FAQ.html"><div class="opcaoMenuFooter"><p>FAQ</p></div></a>
+                        <a href="/telaQuemSomos.html"><div class="opcaoMenuFooter"><p>Quem Somos</p></div></a>
+                        <a href="/telaContato.html"><div class="opcaoMenuFooter"><p>Contato</p></div></a>
+                    </div>
+                    <div class="footerRedes">
+                        <h5>SIGA-NOS</h5>
+                        <br>
+                        <div class="logosRedesSociais">
+                            <a href="https://github.com/AcolherMais/frontendAcolherMais.git"><img src="/img/icones/githubLogo.png" alt="logo github" id="logoRedes"></a>
+                            <img src="/img/icones/insta_LOGO.png" alt="logo instagram" id="logoRedes">
+                            <img src="/img/icones/Twitter_X.png" alt="logo X" id="logoRedes">
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="fimFooter">
+                        <img src="/img/icones/LogoSVG.png" alt="Logo Acolher+" id="logoFooter">
+                        <br>
+                        <h5>© Acolher+ 2025</h5>
+                        <br>
+                        <h5>Todos os direitos reservados.</h5>
+                    </div>
+            </div>
+        </footer>
+
+
+    </div>
+</body>

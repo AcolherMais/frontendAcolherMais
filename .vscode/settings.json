@@ -1,0 +1,6 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "workbench.input.interactive": true
+    },
+    "liveServer.settings.port": 5501
+}
