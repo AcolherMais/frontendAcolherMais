@@ -40,12 +40,14 @@
                     <div class="itemDisplayLogin">    
                         <label>Registro Abrigo:
                             <input type="text" name="firstName" id="insertLogin" placeholder="Ex:AB554684" required>
+                            <span class="span-require">Use "AB" + os 6 números de identificação</span>
                         </label>
                     </div>
                     <div class="itemDisplayLogin">  
                         <br>
                         <label>Senha:
                             <input type="password" name="firstName" id="insertLogin" placeholder="*********" required>
+                            <span class="span-require">Tente novamente, senha incorreta.</span>
                         </label>
                     </div>    
                 </form>
@@ -68,6 +70,7 @@
                         <h5>SIGA-NOS</h5>
                         <br>
                         <div class="logosRedesSociais">
+                            <a href="https://github.com/AcolherMais/frontendAcolherMais.git"><img src="img/icones/githubLogo.png" alt="logo github" id="logoRedes"></a>
                             <img src="img/icones/insta_LOGO.png" alt="logo instagram" id="logoRedes">
                             <img src="img/icones/Twitter_X.png" alt="logo X" id="logoRedes">
                         </div>
@@ -86,5 +89,8 @@
 
 
     </div>
+    <script>
+        alert("Ao realizar o login, você terá acesso a página principal. Navegue entre os dois principais segmentos.\n\n1- Segmento de Gestão de Abrigo:\nAqui, você pode realizar cadastros, além de fazer a gestão de espaço do abrigo.\n\n2- Segmento de Relatórios:\nInclua, use itens e visualize relatórios detalhados.")
+    </script>
 </body>
 </html>
