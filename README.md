@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Objetivo do Projeto
 A Acolher+ é uma ferramenta reativa, voltada para a contenção do impacto negativo que os desastres (Naturais e Tecnológicos) podem causar em nossa sociedade, ao desabrigar famílias.
 A ferramenta é voltada para a equipe que gerencia o abrigo cadastrado.
